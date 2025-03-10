@@ -66,13 +66,13 @@ body
     text-transform: uppercase;
     text-align: center;
     font-weight: 900;
-    line-height: 1.4em;
+    line-height: 1.2em;
 }
 .profileText h2 span
 {
     font-size: 0.8em;
-    font-weight: 700;
-    color: skyblue;
+    font-weight: 500;
+     color: skyblue;
 }
 .contactInfo
 {
@@ -191,6 +191,11 @@ p
     color: #333;
     margin: 5px;
 }
+ul {
+    color: #333;
+    margin-left: 35px;
+}
+ul .des
 .about .box
 {
     display: flex;
@@ -204,20 +209,43 @@ p
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: #848c90;
+    color: #93434d;
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about .box .year_company h4
+{
+    color: #3d2a2a;
+    font-weight: 800;
+    margin-left: 10px;
+    display: block;
+    font-size: 0.90em;
+}
+.about .box .year_company h3
+{
+    color: #28404d;
+    font-weight: 800;
+    margin-left: 10px;
+    display: block;
+    font-size: 0.75em;
 }
 .about .box .text h4
 {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .about .box .text p
 {
     margin-left: 20px;
+}
+.about .box .text .description p
+{
+    margin-left: 0px;
+
 }
 .interest ul
 {
@@ -267,6 +295,6 @@ p
     }
     .about .box .text p 
     {
-        margin-left: 5px;
+        margin-left: 0px;
     }
 }
