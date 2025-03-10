@@ -191,7 +191,11 @@ p
     color: #333;
     margin: 5px;
 }
-ul {
+ul.system {
+    color: #333;
+    margin-left: 25px;
+}
+ul.description {
     color: #333;
     margin-left: 35px;
 }
